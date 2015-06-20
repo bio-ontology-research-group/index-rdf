@@ -5,7 +5,6 @@
 	  @GrabExclude('org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016'),
 	  @GrabConfig(systemClassLoader=true)
 	])
-@Grab(group='org.apache.jena', module='apache-jena-libs', version='2.13.0')
 @Grab(group='org.apache.lucene', module='lucene-core', version='5.2.1')
 @Grab(group='org.apache.lucene', module='lucene-analyzers-common', version='5.2.1')
 @Grab(group='org.apache.lucene', module='lucene-queryparser', version='5.2.1')
